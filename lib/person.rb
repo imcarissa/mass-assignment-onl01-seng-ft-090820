@@ -5,7 +5,7 @@ class Person
    @birthday = birthday
    @height = height
    @weight = weight
-   @handed = handded
+   @handed = handed
    @complexion = complexion
    @t_shirt_size = t_shirt_size
    @wrist_size = wrist_size
