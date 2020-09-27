@@ -16,6 +16,7 @@ class Person
    @glove_size = glove_size
    @pant_length = pant_length
    @pant_width = pant_width
+    attributes.each { |key, value| self.send(("#{key}="), value)
  end
  
 end
